@@ -42,7 +42,7 @@ def visit_dir_files(org_input_dir, org_output_dir, recursion_dir):
 def img_new(img_path,save_path):
     print(u'开始处理图片[' + img_path + u']')
     global undone
-    if os.path.splitext(img_path)[1] == ".jpeg" or os.path.splitext(img_path)[1] == ".png" or os.path.splitext(img_path)[1] == ".webp":
+    if os.path.splitext(img_path)[1] == ".jpeg" or os.path.splitext(img_path)[1] == ".jpg" or os.path.splitext(img_path)[1] == ".png" or os.path.splitext(img_path)[1] == ".webp":
         print(img_path)
         logo.get_water(img_path,save_path)
         print(u'图片[' + img_path + u']处理完毕')
@@ -102,5 +102,5 @@ if __name__ == '__main__':
     output_dir = r''
     undone=[]
     visit_dir_files(input_dir, output_dir, input_dir)
-
+    print(undone)
     print(u'完成！所有图片已保存至路径' + output_dir)
