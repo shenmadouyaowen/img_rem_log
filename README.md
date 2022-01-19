@@ -3,4 +3,4 @@
 
 图片去除logo       Image removal logo
 
-根据 <a href="https://github.com/huanfeiiiii/Remove-Logo">@huanfeiiiii</a>和<a href="https://github.com/jelliy/RemoveLogo">@jelliy</a> 修改
+根据 <a href="https://github.com/huanfeiiiii/Remove-Logo">@huanfeiiiii</a>大佬和<a href="https://github.com/jelliy/RemoveLogo">@jelliy</a>大佬代码修改
