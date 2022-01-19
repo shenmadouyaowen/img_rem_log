@@ -98,8 +98,8 @@ def levelsDeal(img, img2):
 
 
 if __name__ == '__main__':
-    input_dir = r'D:/phpstudy_pro/WWW/TPshop_tp6_20210401/tp6shop/public/public/upload/goods/'
-    output_dir = r'D:/phpstudy_pro/WWW/TPshop_tp6_20210401/tp6shop/public/public/upload/goods/'
+    input_dir = r''
+    output_dir = r''
     undone=[]
     visit_dir_files(input_dir, output_dir, input_dir)
 
